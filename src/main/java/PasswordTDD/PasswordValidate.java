@@ -1,3 +1,5 @@
+package PasswordTDD;
+
 public class PasswordValidate {
 
     public static boolean validation(String pass)
