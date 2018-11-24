@@ -1,6 +1,6 @@
 public class PasswordValidate {
 
-    public boolean validation(String pass)
+    public static boolean validation(String pass)
     {
         if (pass.length()>=5 && pass.length()<=10)
         {

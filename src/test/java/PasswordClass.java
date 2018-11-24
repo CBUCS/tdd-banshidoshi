@@ -6,8 +6,8 @@ public class PasswordClass {
 @Test
 public void PasswordLength()
 {
-    PasswordValidate passwordValidate = new PasswordValidate();
-    Assert.assertEquals(true,passwordValidate.validation("Abc123"));
+  //  PasswordValidate passwordValidate = new PasswordValidate();
+    Assert.assertEquals(true,PasswordValidate.validation("Abc123"));
 }
 
 }
