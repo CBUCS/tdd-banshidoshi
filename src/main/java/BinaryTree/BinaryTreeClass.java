@@ -95,6 +95,10 @@ public class BinaryTreeClass<T> implements BinaryInterface<T> {
         return currentNode;
     }
 
+    public BinaryNode<T> getRoot(){
+        return this.root;
+    }
+
     private T findSmall(BinaryNode<T> Node){
         if(Node.getLeftValue()==null)
             return Node.getValue();
